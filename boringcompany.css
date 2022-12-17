@@ -1,0 +1,117 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    --va:110vh;
+}
+.one{
+    background-image: url('one.jpg');
+    background-attachment: fixed;
+    height:var(--va);
+    background-size: cover;
+}
+.two{
+    color: #fff;
+    background-image: url('two.jpg');
+    background-attachment: fixed;
+    height: var(--va);
+    background-size: cover;
+}
+.three{
+    background-image: url('three.jpg');
+    background-attachment: fixed;
+    height: var(--va);
+    background-size: cover;
+}
+.four{
+    background-image: url('four.jpg');
+    background-attachment: fixed;
+    height: var(--va);
+    background-size: cover;
+}
+.five{
+    background-image: url('five.jpg');
+    background-attachment: fixed;
+    height: var(--va);
+    background-size: cover;
+}
+.header{
+    padding-top: 80px;
+    height: 70px;
+    margin: auto;
+}
+#image-logo{
+    margin-top: -25px;
+    margin-left: 50px;
+    height: 100%;
+    float: left;
+}
+.text-head{
+    cursor: pointer;
+    margin: 20px;
+    color: rgb(247, 247, 247);
+    text-align: center;
+}
+.text-head-end{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    float: right;
+    margin-right: 20px;
+}
+.quote1{
+    color: rgb(250, 253, 255);
+    font-size: 10px;
+    position: absolute;
+    top: 700px;
+    left:100px;
+    line-height: 25px;
+}
+.two-quote{
+    background-color: rgba(0, 0, 0, 0.095);
+    position: absolute;
+    left: 100px;
+    top:170%;
+}
+.three-quote{
+    background-color: rgba(0, 0, 0, 0.095);
+    position: absolute;
+    color: #fff;
+    left: 100px;
+    top:280%;
+}
+.four-quote{
+    background-color: rgba(0, 0, 0, 0.095);
+    position: absolute;
+    color: #fff;
+    left: 100px;
+    top:400%;
+}
+.five-quote{
+    background-color: rgba(0, 0, 0, 0.095);
+    position: absolute;
+    color: #fff;
+    left: 100px;
+    top:520%;
+}
+button{
+    color: #fff;
+    font-size: 20px;
+    margin: auto;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 2px #fff;
+}
+button:hover{
+    background-color: rgba(255, 255, 255, 0.189);
+}
+.text-head:hover{
+    background-color: rgba(255, 255, 255, 0.233);
+}.text-head-end:hover{
+    background-color: rgba(255, 255, 255, 0.233);;
+}
